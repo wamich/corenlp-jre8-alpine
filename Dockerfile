@@ -1,6 +1,6 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:8-jre-alpialpine
 
-ARG CORENLP_VERSION=4.2.0
+ARG CORENLP_VERSION=4.5.6
 
 RUN apk add --no-cache unzip wget
 RUN wget -O corenlp.zip http://nlp.stanford.edu/software/stanford-corenlp-${CORENLP_VERSION}.zip \
